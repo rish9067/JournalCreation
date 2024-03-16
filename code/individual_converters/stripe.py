@@ -7,7 +7,7 @@ from pandas.api.types import is_object_dtype
 def PreprocessTransactionsFile(StripeTransactionDF):
     TransactionDF = StripeTransactionDF.copy()
     TransactionDF["Created (UTC)"] = TransactionDF["Created (UTC)"].dt.strftime('%m/%d/%Y')
-    TransactionDF = TransactionDF[TransactionDF.Type.str.strip().str.lower().isin(['charge','stripe_fee','payout'])]
+    TransactionDF = TransactionDF[TransactionDF.Type.str.strip().str.lower().isin(['charge','stripe_fee','payout','refund','adjustment'])]
     
     if is_object_dtype(TransactionDF['Fee']):
         TransactionDF['Fee'] = TransactionDF['Fee'].str.replace(",","").astype(float)
@@ -120,6 +120,49 @@ def CreateJournal(DF):
             ReferenceNumber.append(row['id'])
             Notes.append(row['type'])
             Account.append('Uncategorized Revenue - Stripe')
+            Description.append(str(row['type']))
+            JournalNumberSuffix.append(add_suffix)
+            Debit.append(row['amount'])
+            Credit.append('')
+            
+            JournalDate.append(row['created_date'])
+            ReferenceNumber.append(row['id'])
+            Notes.append(row['type'])
+            Account.append('Stripe')
+            Description.append(str(row['type']))
+            JournalNumberSuffix.append(add_suffix)
+            Debit.append('')
+            Credit.append(row['amount'])
+            
+            add_suffix = add_suffix + 1
+        elif row['type'].strip().lower() == "adjustment":
+            
+            JournalDate.append(row['created_date'])
+            ReferenceNumber.append(row['id'])
+            Notes.append(row['type'])
+            Account.append('Refunds')
+            Description.append(str(row['type']))
+            JournalNumberSuffix.append(add_suffix)
+            Debit.append(row['amount'])
+            Credit.append('')
+            
+            JournalDate.append(row['created_date'])
+            ReferenceNumber.append(row['id'])
+            Notes.append(row['type'])
+            Account.append('Stripe')
+            Description.append(str(row['type']))
+            JournalNumberSuffix.append(add_suffix)
+            Debit.append('')
+            Credit.append(row['amount'])
+            
+            add_suffix = add_suffix + 1
+
+        elif row['type'].strip().lower() == "refund":
+            
+            JournalDate.append(row['created_date'])
+            ReferenceNumber.append(row['id'])
+            Notes.append(row['type'])
+            Account.append('Refunds')
             Description.append(str(row['type']))
             JournalNumberSuffix.append(add_suffix)
             Debit.append(row['amount'])
