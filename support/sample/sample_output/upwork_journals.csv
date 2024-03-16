@@ -1,0 +1,7 @@
+Journal Date,Reference Number,Journal Number Prefix,Journal Number Suffix,Notes,Journal Type,Currency,Account,Description,Contact Name,Debit,Credit,Tax Name,Tax Type,Tax Percentage,Exemption Code,Tax Authority,Item Tax Exemption Reason,Project Name
+5/29/2023,587618953,,1,Payment,both,USD,Accounts Payable,Paid from Visa 5983,Upwork,40.72,,,,,,,,
+5/29/2023,587618953,,1,Payment,both,USD,Capital One,Paid from Visa 5983,Upwork,,40.72,,,,,,,
+5/29/2023,587544874,,2,Contract Initiation Fee,both,USD,Upwork Contract Initiation Fee,Contract Initiation Fee for Contract ID 33729280 (Ref ID 587544804),Abhi Mukhopadhyay,2.95,,,,,,,,
+5/29/2023,587544874,,2,Contract Initiation Fee,both,USD,Accounts payable - Upwork,Contract Initiation Fee for Contract ID 33729280 (Ref ID 587544804),Abhi Mukhopadhyay,,2.95,,,,,,,
+3/19/2023,565918169,,3,Payment,both,USD,Accounts payable - Upwork,Paid from escrow for invoice 565918170,Upwork,10,,,,,,,,
+3/19.2023,565918169,,3,Payment,both,USD,Upwork Escrow Fund,Paid from escrow for invoice 565918170,Upwork,,10,,,,,,,

@@ -1,0 +1,7 @@
+id,Type,Source,Amount,Fee,Net,Currency,Created (UTC),Available On (UTC),Ko-fi Transaction Id (metadata),PageId (metadata),Creator Stripe Id (metadata),email (metadata),edd_payment_subtotal (metadata),edd_payment_discount (metadata),edd_payment_tax (metadata),edd_payment_tax_rate (metadata),edd_payment_fees (metadata),edd_payment_total (metadata),edd_payment_items (metadata),merchant_reference (metadata),Name (metadata),edd_payment_id (metadata)
+txn_1NlPFWJKPAk5DCf9Z0Z9Qzuk,stripe_fee,,-1.5,0,-1.5,usd,9/1/2023 4:46,9/1/2023 4:46,,,,,,,,,,,,,,
+txn_3NlNyTJKPAk5DCf90FAfmlBb,charge,ch_3NlNyTJKPAk5DCf90tKmzGvi,130,4.07,125.93,usd,9/1/2023 3:24,9/6/2023 0:00,,,,,,,,,,,,,,
+txn_3Nj175JKPAk5DCf90NH3xbBP,charge,ch_3Nj175JKPAk5DCf90jLLjE0U,50,1.75,48.25,usd,8/25/2023 14:35,8/29/2023 0:00,4215b7c9-1165-4467-a789-b9c1f3351eb5,GUEST_ACCOUNT,acct_1Hu1JWJKPAk5DCf9,,,,,,,,,,,
+txn_1NkeTcJKPAk5DCf9QCyON8Gh,payout,po_1NkeTcJKPAk5DCf9rSeJDOcb,-419.41,0,-419.41,usd,8/30/2023 2:49,8/31/2023 0:00,,,,,,,,,,,,,,
+txn_3NkVn0JKPAk5DCf90WT3DG2L,refund,ch_3NkVn0JKPAk5DCf90CUwCeAc,-120,0,-120,usd,8/29/2023 21:32,8/31/2023 0:00,,,,,,,,,,,,,,
+txn_1NchAoJKPAk5DCf9NCV7sCaZ,adjustment,du_1NchAOJKPAk5DCf9sQZpF6b1,-50,15,-65,usd,8/8/2023 4:05,8/8/2023 4:05,,,,,,,,,,,,,,

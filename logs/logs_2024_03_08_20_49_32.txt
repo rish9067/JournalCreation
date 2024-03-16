@@ -1,0 +1,172 @@
+Starting journal entry process !!
+
+There are 7 input files:
+
+1. capital_one\account_transactions.csv
+
+2. mercury_3320\mercury_3320_transactions_sample.csv
+
+3. mercury_9493\mercury_3320_transactions_sample.csv
+
+4. paypal\paypal_account_transactions_sample.CSV
+
+5. stripe\New Stripe File - 26 columns.csv
+
+6. upwork\Upwork.-.January.2023.csv
+
+7. wise\wise_account_transactions_sample.csv
+
+Preprocessing Vendor Match File
+
+Vendor Match File preprocessed successfully.
+
+-------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------------
+
+Processing account_transactions.csv of account transaction type: capital_one.
+
+-------------------------------------------------------------------------------------------------------
+
+There are 43 new vendors added to VendorsDF. Saving the new Vendors file in the Output directory.
+
+Completeness Check -  Number of records in Cleaned Transaction DF: 200 and max value of Journal Suffix: 200
+
+Accuracy Check1 -  Journal Debit Sum: 54958.719999999994 || Journal Credit Sum: 54958.719999999994 || Transaction Debit and Credit Sum: 54958.72
+
+Capital One Completeness and Accuracy Check Passed: False
+
+Capital One JournalDF written successfully.
+
+-------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------------
+
+Processing mercury_3320_transactions_sample.csv of account transaction type: mercury_3320.
+
+-------------------------------------------------------------------------------------------------------
+
+No new vendors are added. The vendors match file remains unchanged.
+
+Completeness Check -  Number of records in Cleaned Transaction DF: 7 and max value of Journal Suffix: 7
+
+Accuracy Check1 -  Journal Debit Sum: 1719.83 || Journal Credit Sum: 1719.83 || Transaction Debit and Credit Sum: 1719.83
+
+Mercury Completeness and Accuracy Check Passed: True
+
+Mercury 3320 JournalDF written successfully.
+
+-------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------------
+
+Processing mercury_3320_transactions_sample.csv of account transaction type: mercury_9493.
+
+-------------------------------------------------------------------------------------------------------
+
+No new vendors are added. The vendors match file remains unchanged.
+
+Completeness Check -  Number of records in Cleaned Transaction DF: 7 and max value of Journal Suffix: 7
+
+Accuracy Check1 -  Journal Debit Sum: 1719.83 || Journal Credit Sum: 1719.83 || Transaction Debit and Credit Sum: 1719.83
+
+Mercury Completeness and Accuracy Check Passed: True
+
+Mercury 9493 JournalDF written successfully.
+
+-------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------------
+
+Processing paypal_account_transactions_sample.CSV of account transaction type: paypal.
+
+-------------------------------------------------------------------------------------------------------
+
+No new vendors are added. The vendors match file remains unchanged.
+
+Completeness Check -  Number of records in Cleaned Transaction DF: 5 and max value of Journal Suffix: 5
+
+Accuracy Check1 -  Journal Debit Sum: -1110.04 || Journal Credit Sum: -1110.04 || Transaction Amount Sum: -1110.04
+
+Paypal Completeness and Accuracy Check Passed: True
+
+Paypal JournalDF written successfully.
+
+-------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------------
+
+Processing New Stripe File - 26 columns.csv of account transaction type: stripe.
+
+-------------------------------------------------------------------------------------------------------
+
+Stripe JournalDF written successfully.
+
+-------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------------
+
+Processing Upwork.-.January.2023.csv of account transaction type: upwork.
+
+-------------------------------------------------------------------------------------------------------
+
+No new vendors are added. The vendors match file remains unchanged.
+
+The Transaction with Ref ID:'543913156' and Description:'Invoice for 12/26/2022-01/01/2023 - 0:50 hrs @ $160.00/hr' related to a fixed contract? Please input a manual entry in Zoho. You can find this transaction inside Output folder in the file FixedContract.csv.
+
+The Transaction with Ref ID:'543913234' and Description:'Marketplace Fee for Ref ID 543913156' related to a fixed contract? Please input a manual entry in Zoho. You can find this transaction inside Output folder in the file FixedContract.csv.
+
+The Transaction with Ref ID:'545881104' and Description:'Invoice for 01/02/2023-01/08/2023 - 1:10 hrs @ $160.00/hr' related to a fixed contract? Please input a manual entry in Zoho. You can find this transaction inside Output folder in the file FixedContract.csv.
+
+The Transaction with Ref ID:'545881168' and Description:'Marketplace Fee for Ref ID 545881104' related to a fixed contract? Please input a manual entry in Zoho. You can find this transaction inside Output folder in the file FixedContract.csv.
+
+The Transaction with Ref ID:'549704202' and Description:'Invoice for 01/16/2023-01/22/2023 - 1:30 hrs @ $160.00/hr' related to a fixed contract? Please input a manual entry in Zoho. You can find this transaction inside Output folder in the file FixedContract.csv.
+
+The Transaction with Ref ID:'549704288' and Description:'Marketplace Fee for Ref ID 549704202' related to a fixed contract? Please input a manual entry in Zoho. You can find this transaction inside Output folder in the file FixedContract.csv.
+
+The Transaction with Ref ID:'544282948' and Description:'Paid from Visa 5983' related to a fixed contract? Please input a manual entry in Zoho. You can find this transaction inside Output folder in the file FixedContract.csv.
+
+The Transaction with Ref ID:'546300214' and Description:'Paid from Visa 5983' related to a fixed contract? Please input a manual entry in Zoho. You can find this transaction inside Output folder in the file FixedContract.csv.
+
+The Transaction with Ref ID:'548222745' and Description:'Paid from Visa 5983' related to a fixed contract? Please input a manual entry in Zoho. You can find this transaction inside Output folder in the file FixedContract.csv.
+
+The Transaction with Ref ID:'550198627' and Description:'Paid from Visa 5983' related to a fixed contract? Please input a manual entry in Zoho. You can find this transaction inside Output folder in the file FixedContract.csv.
+
+The Transaction with Ref ID:'552211085' and Description:'Paid from Visa 5983' related to a fixed contract? Please input a manual entry in Zoho. You can find this transaction inside Output folder in the file FixedContract.csv.
+
+The Transaction with Ref ID:'546058067' and Description:'Invoice for 01/02/2023-01/08/2023 - 3:50 hrs @ $120.00/hr' related to a fixed contract? Please input a manual entry in Zoho. You can find this transaction inside Output folder in the file FixedContract.csv.
+
+The Transaction with Ref ID:'546058154' and Description:'Marketplace Fee for Ref ID 546058067' related to a fixed contract? Please input a manual entry in Zoho. You can find this transaction inside Output folder in the file FixedContract.csv.
+
+The Transaction with Ref ID:'547923631' and Description:'Invoice for 01/09/2023-01/15/2023 - 1:10 hrs @ $120.00/hr' related to a fixed contract? Please input a manual entry in Zoho. You can find this transaction inside Output folder in the file FixedContract.csv.
+
+The Transaction with Ref ID:'547923693' and Description:'Marketplace Fee for Ref ID 547923631' related to a fixed contract? Please input a manual entry in Zoho. You can find this transaction inside Output folder in the file FixedContract.csv.
+
+The Transaction with Ref ID:'549875887' and Description:'Invoice for 01/16/2023-01/22/2023 - 0:40 hrs @ $120.00/hr' related to a fixed contract? Please input a manual entry in Zoho. You can find this transaction inside Output folder in the file FixedContract.csv.
+
+The Transaction with Ref ID:'549875955' and Description:'Marketplace Fee for Ref ID 549875887' related to a fixed contract? Please input a manual entry in Zoho. You can find this transaction inside Output folder in the file FixedContract.csv.
+
+The Transaction with Ref ID:'551859444' and Description:'Invoice for 01/23/2023-01/29/2023 - 0:20 hrs @ $120.00/hr' related to a fixed contract? Please input a manual entry in Zoho. You can find this transaction inside Output folder in the file FixedContract.csv.
+
+The Transaction with Ref ID:'551859509' and Description:'Marketplace Fee for Ref ID 551859444' related to a fixed contract? Please input a manual entry in Zoho. You can find this transaction inside Output folder in the file FixedContract.csv.
+
+Completeness Check -  Number of records in Cleaned Transaction DF: 19 and max value of Journal Suffix: 19
+
+Accuracy Check1 -  Journal Debit Sum: 0.0 || Journal Credit Sum: 0.0 || Transaction Amount Sum: 0.0
+
+Upwork Completeness and Accuracy Check Passed: True
+
+Upwork JournalDF written successfully.
+
+-------------------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------------------
+
+Processing wise_account_transactions_sample.csv of account transaction type: wise.
+
+-------------------------------------------------------------------------------------------------------
+
+Wise JournalDF written successfully.
+
+Combined JournalDF written successfully.
+

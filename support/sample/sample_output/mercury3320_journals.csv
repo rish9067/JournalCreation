@@ -1,0 +1,7 @@
+Journal Date,Reference Number,Journal Number Prefix,Journal Number Suffix,Notes,Journal Type,Currency,Account,Description,Contact Name,Debit,Credit,Tax Name,Tax Type,Tax Percentage,Exemption Code,Tax Authority,Item Tax Exemption Reason,Project Name
+12/30/2022,,,1,Deposit,both,USD,Mercury 3320,STRIPE; STRIPE::DAVID APPLEGATE; ST-B4K8O2I9B0F5,STRIPE,48,,,,,,,,
+12/30/2022,,,1,Deposit,both,USD,Uncategorized Revenue - Stripe,STRIPE; STRIPE::DAVID APPLEGATE; ST-B4K8O2I9B0F5,STRIPE,,48,,,,,,,
+1/6/2022,,,2,Deposit,both,USD,Mercury 3320,Transfer from another bank account to Mercury,Chase - Checking ••6445,2500,,,,,,,,
+1/6/2022,,,2,Deposit,both,USD,Uncategorized Revenue - Chase,Transfer from another bank account to Mercury,Chase - Checking ••6445,,2500,,,,,,,
+1/4/2022,,,3,Payment,both,USD,Uncategorized Revenue - Wise,Mercury Checking ••3320,Wise Ltd,900,,,,,,,,
+1/4/2022,,,3,Payment,both,USD,Mercury 3320,Mercury Checking ••3320,Wise Ltd,,900,,,,,,,

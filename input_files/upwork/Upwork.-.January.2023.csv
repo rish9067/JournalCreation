@@ -1,0 +1,20 @@
+Date,Ref ID,Type,Description,Agency,Freelancer,Team,Account Name,PO,Amount,Amount in local currency,Currency,Balance
+"Jan 30, 2023",552211085,Payment,Paid from Visa 5983,,,,David Applegate,,42.00,,,0.00
+"Jan 30, 2023",551859509,Marketplace Fee,Marketplace Fee for Ref ID 551859444,,Sergii Onufriienko,Rawr! For a Reason,David Applegate,,-2.00,,,-42.00
+"Jan 30, 2023",551859444,Hourly,Invoice for 01/23/2023-01/29/2023 - 0:20 hrs @ $120.00/hr,,Sergii Onufriienko,Rawr! For a Reason,David Applegate,,-40.00,,,-40.00
+"Jan 23, 2023",550198627,Payment,Paid from Visa 5983,,,,David Applegate,,336.00,,,0.00
+"Jan 23, 2023",549875955,Marketplace Fee,Marketplace Fee for Ref ID 549875887,,Sergii Onufriienko,Rawr! For a Reason,David Applegate,,-4.00,,,-336.00
+"Jan 23, 2023",549875887,Hourly,Invoice for 01/16/2023-01/22/2023 - 0:40 hrs @ $120.00/hr,,Sergii Onufriienko,Rawr! For a Reason,David Applegate,,-80.00,,,-332.00
+"Jan 23, 2023",549704288,Marketplace Fee,Marketplace Fee for Ref ID 549704202,,Boaz Sasson,Rawr! For a Reason,David Applegate,,-12.00,,,-252.00
+"Jan 23, 2023",549704202,Hourly,Invoice for 01/16/2023-01/22/2023 - 1:30 hrs @ $160.00/hr,,Boaz Sasson,Rawr! For a Reason,David Applegate,,-240.00,,,-240.00
+"Jan 16, 2023",548222745,Payment,Paid from Visa 5983,,,,David Applegate,,147.00,,,0.00
+"Jan 16, 2023",547923693,Marketplace Fee,Marketplace Fee for Ref ID 547923631,,Sergii Onufriienko,Rawr! For a Reason,David Applegate,,-7.00,,,-147.00
+"Jan 16, 2023",547923631,Hourly,Invoice for 01/09/2023-01/15/2023 - 1:10 hrs @ $120.00/hr,,Sergii Onufriienko,Rawr! For a Reason,David Applegate,,-140.00,,,-140.00
+"Jan 9, 2023",546300214,Payment,Paid from Visa 5983,,,,David Applegate,,679.00,,,0.00
+"Jan 9, 2023",546058154,Marketplace Fee,Marketplace Fee for Ref ID 546058067,,Sergii Onufriienko,Rawr! For a Reason,David Applegate,,-23.00,,,-679.00
+"Jan 9, 2023",546058067,Hourly,Invoice for 01/02/2023-01/08/2023 - 3:50 hrs @ $120.00/hr,,Sergii Onufriienko,Rawr! For a Reason,David Applegate,,-460.00,,,-656.00
+"Jan 9, 2023",545881168,Marketplace Fee,Marketplace Fee for Ref ID 545881104,,Boaz Sasson,Rawr! For a Reason,David Applegate,,-9.33,,,-196.00
+"Jan 9, 2023",545881104,Hourly,Invoice for 01/02/2023-01/08/2023 - 1:10 hrs @ $160.00/hr,,Boaz Sasson,Rawr! For a Reason,David Applegate,,-186.67,,,-186.67
+"Jan 2, 2023",544282948,Payment,Paid from Visa 5983,,,,David Applegate,,140.00,,,0.00
+"Jan 2, 2023",543913234,Marketplace Fee,Marketplace Fee for Ref ID 543913156,,Boaz Sasson,Rawr! For a Reason,David Applegate,,-6.67,,,-140.00
+"Jan 2, 2023",543913156,Hourly,Invoice for 12/26/2022-01/01/2023 - 0:50 hrs @ $160.00/hr,,Boaz Sasson,Rawr! For a Reason,David Applegate,,-133.33,,,-133.33

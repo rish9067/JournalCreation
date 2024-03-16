@@ -1,0 +1,8 @@
+Date (UTC),Description,Amount,Status,Source Account,Bank Description,Reference,Note,Last Four Digits,Name On Card
+12/30/2022,STRIPE,48,Sent,Mercury Checking ••3320,STRIPE,STRIPE::DAVID APPLEGATE, ST-B4K8O2I9B0F5,,
+1/6/2022,Chase - Checking ••6445,2500,Sent,Mercury Checking ••3320,Transfer from another bank account to Mercury,,,,
+1/4/2022,Wise Ltd,-900,Sent,Mercury Checking ••3320,Wise Ltd,Wise Ltd::ImportYeti LLC,,,
+1/4/2022,PAYPAL,181.74,Sent,Mercury Checking ••3320,PAYPAL,PAYPAL:TRANSFER:IMPORTYETI LLC,1017751635628,,
+1/4/2022,VENMO,30,Sent,Mercury Checking ••3320,VENMO,VENMO::DAVE APPLEGATE,1017751676708,,
+1/4/2022,Patreon,660.09,Sent,Mercury Checking ••3320,Patreon,Patreon::IMPORTYETI LLC, ST-P4S0V1L5T0C1,,
+1/3/2022,Guadalupe Vilariño Marsilli,-800,Sent,Mercury Checking ••3320,Send Money transaction initiated on Mercury,"From ImportYeti, LLC Contractor:Marketing;SMM Marketing",,,

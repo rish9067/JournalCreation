@@ -1,0 +1,7 @@
+Journal Date,Reference Number,Journal Number Prefix,Journal Number Suffix,Notes,Journal Type,Currency,Account,Description,Contact Name,Debit,Credit,Tax Name,Tax Type,Tax Percentage,Exemption Code,Tax Authority,Item Tax Exemption Reason,Project Name
+1/1/2023,,,1,Sample Only,both,USD,Hosting Expenses,Amazon Web Service,Amazon Web Service,589.76,,,,,,,,
+1/1/2023,,,1,Sample Only,both,USD,Capital One,Capital One,Capital One,,589.76,,,,,,,
+1/1/2023,,,2,Samply Only,both,USD,Back Office Software Expense,Zoho One,Zoho One,35,,,,,,,,
+1/1/2023,,,2,Samply Only,both,USD,Capital One,Capital One,Capital One,,35,,,,,,,
+1/1/2023,,,3,Sample Only,both,USD,Hosting Expenses,Digital Ocean,Digital Ocean,23.48,,,,,,,,
+1/1/2023,,,3,Sample Only,both,USD,Capital One,Capital One,Capital One,,23.48,,,,,,,
